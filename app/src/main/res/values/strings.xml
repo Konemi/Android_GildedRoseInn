@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Gilded Rose Inn</string>
+    <string name="title_activity_home">Gilded Rose Inn</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_shop">Shop</string>
+    <string name="title_activity_inventory">InventoryActivity</string>
+</resources>
