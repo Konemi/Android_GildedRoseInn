@@ -111,7 +111,7 @@ public class CustomAdapter extends BaseAdapter{
                     if(CustomAdapter.ItemList.getItems().size() <6 && CustomAdapter.ItemList.getWallet() >= (itemQuality*2 + 1)) {
                         //update the values in the application
                         CustomAdapter.ItemList.setItem(new Item(itemName, itemImage, itemSellIn, itemQuality));
-                        CustomAdapter.ItemList.setWallet(CustomAdapter.ItemList.getWallet() - itemSellIn);
+                        CustomAdapter.ItemList.setWallet(CustomAdapter.ItemList.getWallet() - (itemQuality*2 + 1));
                         //we notice the user that he bought an item, the toast pop-up is automatically stopped after 1 sec
                         final Toast toast = Toast.makeText(context, "You bought " + itemName, Toast.LENGTH_LONG);
                         toast.show();
